@@ -12,16 +12,16 @@ function App() {
       <Navbar/>
       <div className="content">
           <Switch>
-            <Route exact path = "/">
+            <Route exact path = "/react">
             <Home/>
             </Route>
-            <Route path = "/create">
+            <Route path = "/react/create">
             <Create/>
             </Route>
-            <Route path = "/blogs/:id">
+            <Route path = "/react/blogs/:id">
             <Blogdetails/>
             </Route>
-            <Route path = "/mohamedistheadmin/:id">
+            <Route path = "/react/mohamedistheadmin/:id">
             <AdminPage/>
             </Route>
             <Route path = "*">
